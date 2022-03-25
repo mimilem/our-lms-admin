@@ -34,7 +34,7 @@ export default function Header () {
 								<li>
 									<ul className="dropdown-menu-list small-slimscroll-style" data-handle-color="#637283">
 										<li>
-											<a href="javascript:;">
+											<a>
 												<span className="time">just now</span>
 												<span className="details">
 													<span className="notification-icon circle deepPink-bgcolor"><i
@@ -43,7 +43,7 @@ export default function Header () {
 											</a>
 										</li>
 										<li>
-											<a href="javascript:;">
+											<a>
 												<span className="time">3 mins</span>
 												<span className="details">
 													<span className="notification-icon circle purple-bgcolor"><i
@@ -52,7 +52,7 @@ export default function Header () {
 											</a>
 										</li>
 										<li>
-											<a href="javascript:;">
+											<a>
 												<span className="time">7 mins</span>
 												<span className="details">
 													<span className="notification-icon circle blue-bgcolor"><i
@@ -61,7 +61,7 @@ export default function Header () {
 											</a>
 										</li>
 										<li>
-											<a href="javascript:;">
+											<a>
 												<span className="time">12 mins</span>
 												<span className="details">
 													<span className="notification-icon circle pink"><i
@@ -70,7 +70,7 @@ export default function Header () {
 											</a>
 										</li>
 										<li>
-											<a href="javascript:;">
+											<a>
 												<span className="time">15 mins</span>
 												<span className="details">
 													<span className="notification-icon circle yellow"><i
@@ -78,7 +78,7 @@ export default function Header () {
 											</a>
 										</li>
 										<li>
-											<a href="javascript:;">
+											<a>
 												<span className="time">10 hrs</span>
 												<span className="details">
 													<span className="notification-icon circle red"><i
@@ -87,7 +87,7 @@ export default function Header () {
 										</li>
 									</ul>
 									<div className="dropdown-menu-footer">
-										<a href="javascript:void(0)"> All notifications </a>
+										<a> All notifications </a>
 									</div>
 								</li>
 							</ul>

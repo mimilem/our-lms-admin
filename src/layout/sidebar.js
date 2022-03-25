@@ -14,81 +14,81 @@ export default function Sidebar () {
 								</div>
 							</li>
 							<li className="nav-item start active open">
-								<a href="index.html" className="nav-link nav-toggle">
+								<a className="nav-link nav-toggle">
 									<i className="material-icons">dashboard</i>
 									<span className="title">Dashboard</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_professors.html" className="nav-link nav-toggle"> <i className="material-icons">group</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
 									<span className="title">General Staff</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">store</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">store</i>
 									<span className="title">Campuses</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="event.html" className="nav-link nav-toggle"> <i className="material-icons">event</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">event</i>
 									<span className="title">General calender</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="fees_collection.html" className="nav-link nav-toggle"> <i className="material-icons">monetization_on</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">monetization_on</i>
 									<span className="title">Fees</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="fees_collection.html" className="nav-link nav-toggle"> <i className="material-icons">email</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">email</i>
 									<span className="title">General notifications</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">event</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">event</i>
 									<span className="title">General events</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_assets.html" className="nav-link nav-toggle"> <i className="material-icons">local_library</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">local_library</i>
 									<span className="title">Library</span> 
 								</a>
 							</li>
 							<hr />
 
 							<li className="nav-item start active open">
-								<a href="index.html" className="nav-link nav-toggle">
+								<a className="nav-link nav-toggle">
 									<i className="material-icons">dashboard</i>
 									<span className="title">Dashboard</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_department.html" className="nav-link nav-toggle"> <i className="material-icons">business</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">business</i>
 									<span className="title">Faculte</span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_staffs.html" className="nav-link nav-toggle"> <i className="material-icons">view_quilt</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">view_quilt</i>
 									<span className="title">Module shelf</span> <span className="arrow"></span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_staffs.html" className="nav-link nav-toggle"> <i className="material-icons">group</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
 									<span className="title">Students</span> <span className="arrow"></span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_staffs.html" className="nav-link nav-toggle"> <i className="material-icons">group</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
 									<span className="title">Manage users</span> <span className="arrow"></span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">description</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">description</i>
 									<span className="title">Exams</span> <span className="arrow"></span>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">slideshow</i>
+								<a className="nav-link nav-toggle"> <i className="material-icons">slideshow</i>
 									<span className="title">media</span> <span className="arrow"></span>
 								</a>
 							</li>

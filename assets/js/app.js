@@ -15,11 +15,11 @@ var App = function() {
 
     var assetsPath = '';
 
-    var globalImgPath = 'img/index.html';
+    var globalImgPath = '../img/index.html';
 
-    var globalPluginsPath = 'global/plugins/index.html';
+    var globalPluginsPath = '../global/plugins/index.html';
 
-    var globalCssPath = 'css/index.html';
+    var globalCssPath = '../css/index.html';
 
     /************* Setting for IE ****************/
     var handleInit = function() {

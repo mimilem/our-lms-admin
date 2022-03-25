@@ -5,9 +5,9 @@
  *
  **/
 var Layout = (function () {
-  var layoutImgPath = "img/index.html";
+  var layoutImgPath = "../img/index.html";
 
-  var layoutCssPath = "css/index.html";
+  var layoutCssPath = "../css/index.html";
 
   var resBreakpointMd = App.getResponsiveBreakpoint("md");
 

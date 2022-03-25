@@ -9,7 +9,9 @@ class App extends Component {
     return (
       <div className="page-wrapper">
         <Header />
-        <Sidebar />
+        <div className="page-container">
+          
+        </div>
         <Footer />
       </div>
     );

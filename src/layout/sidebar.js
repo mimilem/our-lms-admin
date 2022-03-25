@@ -3,82 +3,98 @@ import React from "react";
 export default function Sidebar () {
 
     return(
-        <div class="settingSidebar">
-			<a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
-			</a>
-			<div class="settingSidebar-body ps-container ps-theme-default">
-				<div class=" fade show active">
-					<div class="setting-panel-header">Setting Panel
-					</div>
-					<div class="quick-setting slimscroll-style">
-						<ul id="themecolors">
-							<li>
-								<p class="sidebarSettingTitle">Sidebar Color</p>
-							</li>
-							<li class="complete">
-								<div class="theme-color sidebar-theme">
-									<a href="#" data-theme="white"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="dark"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="blue"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="indigo"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="cyan"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="green"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="red"><span class="head"></span><span
-											class="cont"></span></a>
+        <div className="sidebar-container">
+				<div className="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" className="left-sidemenu">
+						<ul className="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false"
+							data-auto-scroll="true" data-slide-speed="200" style={{PaddingTop: '20px'}}>
+							<li className="sidebar-toggler-wrapper hide">
+								<div className="sidebar-toggler">
+									<span></span>
 								</div>
 							</li>
-							<li>
-								<p class="sidebarSettingTitle">Header Brand color</p>
+							<li className="nav-item start active open">
+								<a href="index.html" className="nav-link nav-toggle">
+									<i className="material-icons">dashboard</i>
+									<span className="title">Dashboard</span>
+								</a>
 							</li>
-							<li class="theme-option">
-								<div class="theme-color logo-theme">
-									<a href="#" data-theme="logo-white"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="logo-dark"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="logo-blue"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="logo-indigo"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="logo-cyan"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="logo-green"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="logo-red"><span class="head"></span><span
-											class="cont"></span></a>
-								</div>
+							<li className="nav-item">
+								<a href="all_professors.html" className="nav-link nav-toggle"> <i className="material-icons">group</i>
+									<span className="title">General Staff</span>
+								</a>
 							</li>
-							<li>
-								<p class="sidebarSettingTitle">Header color</p>
+							<li className="nav-item">
+								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">store</i>
+									<span className="title">Campuses</span>
+								</a>
 							</li>
-							<li class="theme-option">
-								<div class="theme-color header-theme">
-									<a href="#" data-theme="header-white"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="header-dark"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="header-blue"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="header-indigo"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="header-cyan"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="header-green"><span class="head"></span><span
-											class="cont"></span></a>
-									<a href="#" data-theme="header-red"><span class="head"></span><span
-											class="cont"></span></a>
-								</div>
+							<li className="nav-item">
+								<a href="event.html" className="nav-link nav-toggle"> <i className="material-icons">event</i>
+									<span className="title">General calender</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="fees_collection.html" className="nav-link nav-toggle"> <i className="material-icons">monetization_on</i>
+									<span className="title">Fees</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="fees_collection.html" className="nav-link nav-toggle"> <i className="material-icons">email</i>
+									<span className="title">General notifications</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">event</i>
+									<span className="title">General events</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_assets.html" className="nav-link nav-toggle"> <i className="material-icons">local_library</i>
+									<span className="title">Library</span> 
+								</a>
+							</li>
+							<hr />
+
+							<li className="nav-item start active open">
+								<a href="index.html" className="nav-link nav-toggle">
+									<i className="material-icons">dashboard</i>
+									<span className="title">Dashboard</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_department.html" className="nav-link nav-toggle"> <i className="material-icons">business</i>
+									<span className="title">Faculte</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_staffs.html" className="nav-link nav-toggle"> <i className="material-icons">view_quilt</i>
+									<span className="title">Module shelf</span> <span className="arrow"></span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_staffs.html" className="nav-link nav-toggle"> <i className="material-icons">group</i>
+									<span className="title">Students</span> <span className="arrow"></span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_staffs.html" className="nav-link nav-toggle"> <i className="material-icons">group</i>
+									<span className="title">Manage users</span> <span className="arrow"></span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">description</i>
+									<span className="title">Exams</span> <span className="arrow"></span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="all_courses.html" className="nav-link nav-toggle"> <i className="material-icons">slideshow</i>
+									<span className="title">media</span> <span className="arrow"></span>
+								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		</div>
     )
 }

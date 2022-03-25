@@ -1,10 +1,9 @@
 import React from "react";
 
-export default function Sidebar () {
-
+export default function Sidebar ({show}) {
     return(
         <div className="sidebar-container">
-				<div className="sidemenu-container navbar-collapse collapse fixed-menu">
+				<div className="sidemenu-container navbar-collapse fixed-menu">
 					<div id="remove-scroll" className="left-sidemenu">
 						<ul className="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false"
 							data-auto-scroll="true" data-slide-speed="200" style={{PaddingTop: '20px'}}>
@@ -54,44 +53,48 @@ export default function Sidebar () {
 									<span className="title">Library</span> 
 								</a>
 							</li>
-							<hr />
+							{show?
+								<>
+									
+								<li className="nav-item start active open">
+									<a className="nav-link nav-toggle">
+										<i className="material-icons">dashboard</i>
+										<span className="title">Dashboard</span>
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link nav-toggle"> <i className="material-icons">business</i>
+										<span className="title">Faculte</span>
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link nav-toggle"> <i className="material-icons">view_quilt</i>
+										<span className="title">Module shelf</span> <span className="arrow"></span>
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
+										<span className="title">Students</span>
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
+										<span className="title">Manage users</span> 
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link nav-toggle"> <i className="material-icons">description</i>
+										<span className="title">Exams</span>
+									</a>
+								</li>
+								<li className="nav-item">
+									<a className="nav-link nav-toggle"> <i className="material-icons">slideshow</i>
+										<span className="title">media</span>
+									</a>
+								</li>
+								</>
+							: ''}
 
-							<li className="nav-item start active open">
-								<a className="nav-link nav-toggle">
-									<i className="material-icons">dashboard</i>
-									<span className="title">Dashboard</span>
-								</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">business</i>
-									<span className="title">Faculte</span>
-								</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">view_quilt</i>
-									<span className="title">Module shelf</span> <span className="arrow"></span>
-								</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
-									<span className="title">Students</span> <span className="arrow"></span>
-								</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
-									<span className="title">Manage users</span> <span className="arrow"></span>
-								</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">description</i>
-									<span className="title">Exams</span> <span className="arrow"></span>
-								</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">slideshow</i>
-									<span className="title">media</span> <span className="arrow"></span>
-								</a>
-							</li>
 						</ul>
 					</div>
 				</div>

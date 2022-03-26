@@ -2,11 +2,8 @@ import React,{Component} from "react";
 import Sidebar from "../layout/sidebar";
 
 export default class Home extends Component {
-    state = {
-        show: false
-    }
     render() {
-        const {show} = this.state;
+        const {show} = this.props;
         return(
             <div className="page-container">
                 <Sidebar show={show} />
@@ -84,14 +81,87 @@ export default class Home extends Component {
                                     </div>
                                     <div className="col-lg-12 p-t-20 text-center">
                                         <button type="button"
-                                            className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 m-r-20 btn-pink">Submit</button>
+                                            className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 m-r-20 btn-primary">Submit</button>
                                         <button type="button"
                                             className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-default">Cancel</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+                        <div className="row ">
+                            <div className="col-xl-3 col-lg-6">
+                                <div className="card comp-card">
+                                    <div className="card-body">
+                                        <div className="row align-items-center">
+                                            <div className="col">
+                                                <div className="col mt-0">
+                                                    <h4 className="info-box-title">Campuses</h4>
+                                                </div>
+                                                <h3 className="mt-1 mb-3 info-box-title col-green">4,586</h3>
+                                                <div className="progress">
+                                                    <div className="progress-bar l-bg-purple" style={{Width: "45%"}}></div>
+                                                </div>
+                                            </div>
+                                            <div className="col-auto">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6">
+                                <div className="card comp-card">
+                                    <div className="card-body">
+                                        <div className="row align-items-center">
+                                            <div className="col">
+                                                <div className="col mt-0">
+                                                    <h4 className="info-box-title">Departements</h4>
+                                                </div>
+                                                <h3 className="mt-1 mb-3 info-box-title col-green">4,586</h3>
+                                                <div className="progress">
+                                                    <div className="progress-bar l-bg-purple" style={{Width: "45%"}}></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6">
+                                <div className="card comp-card">
+                                    <div className="card-body">
+                                        <div className="row align-items-center">
+                                            <div className="col">
+                                                <div className="col mt-0">
+                                                    <h4 className="info-box-title">Staff</h4>
+                                                </div>
+                                                <h3 className="mt-1 mb-3 info-box-title col-green">589</h3>
+                                                <div className="progress">
+                                                    <div className="progress-bar l-bg-red" style={{Width: "45%"}}></div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6">
+                                <div className="card comp-card">
+                                    <div className="card-body">
+                                        <div className="row align-items-center">
+                                            <div className="col">
+                                                <div className="col mt-0">
+                                                    <h4 className="info-box-title">Students</h4>
+                                                </div>
+                                                <h3 className="mt-1 mb-3 info-box-title col-green">48</h3>
+                                                <div className="progress">
+                                                    <div className="progress-bar l-bg-green" style={{Width: "45%"}}></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+					    </div>
                     </div>
                 </div>
             </div>

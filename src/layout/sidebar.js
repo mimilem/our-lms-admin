@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar ({show}) {
     return(
@@ -13,45 +14,52 @@ export default function Sidebar ({show}) {
 								</div>
 							</li>
 							<li className="nav-item start active open">
-								<a className="nav-link nav-toggle">
+								<Link to={'/'} className="nav-link nav-toggle">
 									<i className="material-icons">dashboard</i>
 									<span className="title">Dashboard</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">group</i>
+								<Link to={'/generalstaff'} className="nav-link nav-toggle"> 
+									<i className="material-icons">group</i>
 									<span className="title">General Staff</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">store</i>
+								<Link to={'/campuses'} className="nav-link nav-toggle"> 
+									<i className="material-icons">store</i>
 									<span className="title">Campuses</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">event</i>
+								<Link to={'/calender'} className="nav-link nav-toggle"> 
+									<i className="material-icons">event</i>
 									<span className="title">General calender</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">monetization_on</i>
+								<Link to={'/fees'} className="nav-link nav-toggle"> 
+									<i className="material-icons">monetization_on</i>
 									<span className="title">Fees</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">email</i>
+								<Link to={'/notication'} className="nav-link nav-toggle"> 
+									<i className="material-icons">email</i>
 									<span className="title">General notifications</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">event</i>
+								<Link to={'/event'} className="nav-link nav-toggle"> 
+									<i className="material-icons">event</i>
 									<span className="title">General events</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link nav-toggle"> <i className="material-icons">local_library</i>
+								<Link to={'/library'} className="nav-link nav-toggle">
+								    <i className="material-icons">local_library</i>
 									<span className="title">Library</span> 
-								</a>
+								</Link>
 							</li>
 							{show?
 								<>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header () {
 
@@ -6,12 +7,13 @@ export default function Header () {
         <div className="page-header navbar navbar-fixed-top">
 			<div className="page-header-inner ">
 				<div className="page-logo">
-					<a href="index.html">
+					<Link to={'/'}>
 						<span className="logo-icon material-icons fa-rotate-45">school</span>
-						<span className="logo-default">Vinco</span> </a>
+						<span className="logo-default">Vinco</span> 
+					</Link>
 				</div>
 				<ul className="nav navbar-nav navbar-left in">
-					<li><a href="#" className="menu-toggler sidebar-toggler"><i className="icon-menu"></i></a></li>
+					<li><a className="menu-toggler sidebar-toggler"><i className="icon-menu"></i></a></li>
 				</ul>
 				<a className="menu-toggler responsive-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
 					<span></span>

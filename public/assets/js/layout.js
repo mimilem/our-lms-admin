@@ -89,7 +89,7 @@ var Layout = (function () {
     }
 
     if (
-      el.attr("href").toLowerCase() === "javascript:;" ||
+      el.attr("href").toLowerCase() === "javascript;;" ||
       el.attr("href").toLowerCase() === "#"
     ) {
       return;

@@ -58,7 +58,7 @@ export default class Calender extends Component {
                                                         className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
                                                         <input className="mdl-textfield__input" type="text"
                                                             id="txtFirstName"/>
-                                                        <label className="mdl-textfield__label">Institution name</label>
+                                                        <label className="mdl-textfield__label">Name</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-12 p-t-20">
@@ -66,7 +66,6 @@ export default class Calender extends Component {
                                                         className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
                                                         <input className="mdl-textfield__input" type="file"
                                                             id="txtLasttName"/>
-                                                        <label className="mdl-textfield__label">Academic Year</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-12 p-t-20 text-center">

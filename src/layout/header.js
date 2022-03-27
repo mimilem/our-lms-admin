@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Header () {
 
     return(
-        <div className="page-header navbar navbar-fixed-top">
+        <div className="page-header navbar navbar-fixed-top" style={{position: 'fixed'}}>
 			<div className="page-header-inner ">
 				<div className="page-logo">
 					<Link to={'/'}>

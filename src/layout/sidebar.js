@@ -32,6 +32,12 @@ export default function Sidebar ({show}) {
 								</Link>
 							</li>
 							<li className="nav-item">
+								<Link to={'/shortcours'} className="nav-link nav-toggle"> 
+									<i className="material-icons">store</i>
+									<span className="title">Short Courses</span>
+								</Link>
+							</li>
+							<li className="nav-item">
 								<Link to={'/calender'} className="nav-link nav-toggle"> 
 									<i className="material-icons">event</i>
 									<span className="title">General calender</span>

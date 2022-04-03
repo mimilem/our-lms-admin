@@ -13,7 +13,7 @@ export default class Campuses extends Component {
 					<div className="page-bar">
 						<div className="page-title-breadcrumb">
 							<div className="pull-left">
-								<div className="page-title">All Courses List</div>
+								<div className="page-title">All Campuses List</div>
 							</div>
 							<ol className="breadcrumb page-breadcrumb pull-right">
 								<li><i className="fa fa-home"></i>&nbsp;<Link className="parent-item"

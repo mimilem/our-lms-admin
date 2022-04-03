@@ -11,6 +11,7 @@ import Fees from './views/fees/fees';
 import Library from './views/library/library';
 import Notication from './views/generalNotication/notication';
 import Events from './views/generalEvent/events';
+import ShortCours from './views/shortcourses/shortcours';
 
 class App extends Component {
   state = {
@@ -24,6 +25,7 @@ class App extends Component {
           <Routes>
             <Route path='/generalstaff' element={<GeneralStaff show={show} />} />
             <Route path='/campuses' element={<Campuses show={show} />} />
+            <Route path='/shortcours' element={<ShortCours show={show} />} />
             <Route path='/calender' element={<Calender show={show} />} />
             <Route path='/fees' element={<Fees show={show} />} />
             <Route path='/library' element={<Library show={show} />} />
